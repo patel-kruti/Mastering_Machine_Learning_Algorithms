@@ -1,0 +1,58 @@
+Phase 1: Foundations of Machine Learning
+
+✅ Understanding the Basics
+
+What is Machine Learning? – Definition, types (Supervised, Unsupervised, Reinforcement Learning)
+Mathematical Foundations – Linear algebra, probability, statistics, and calculus basics for ML
+Key ML Concepts – Features, labels, training vs. testing, overfitting, underfitting
+📌 Hands-on: Implement a basic linear regression model from scratch using NumPy.
+
+📌 What is Machine Learning?
+1️⃣ Definition of Machine Learning
+Machine Learning (ML) is a field of artificial intelligence that enables computers to learn patterns from data and make predictions without being explicitly programmed.
+
+Example:
+
+A spam filter learns to classify emails as spam or not spam based on previous emails.
+A stock market model predicts whether a stock price will go up or down based on past trends.
+
+2️⃣ Types of Machine Learning
+There are three main types:
+
+Type	                        Description	                                                                                Example
+Supervised Learning	            The model learns from labeled data (input → output pairs).	                                Email spam detection (spam or not spam)
+Unsupervised Learning	        The model finds hidden patterns in unlabeled data.	                                        Customer segmentation in marketing
+Reinforcement Learning	        The model learns by interacting with an environment and receiving rewards or penalties.	    Self-driving cars
+
+🔹 Supervised Learning – We have labeled data (e.g., "This email is spam, this one is not").
+🔹 Unsupervised Learning – No labels, the model finds structure in data (e.g., grouping similar customers).
+🔹 Reinforcement Learning – The model learns by trial and error (e.g., an AI playing chess).
+
+3️⃣ Key Concepts in ML
+Before we jump into algorithms, we need to understand:
+
+✅ Features & Labels
+
+Feature: Input variable (e.g., customer age, salary).
+Label: Output variable (e.g., whether a customer buys a product or not).
+
+✅ Training vs. Testing Data
+
+Training Data: The dataset used to train the ML model.
+Testing Data: The dataset used to evaluate the ML model.
+
+✅ Overfitting vs. Underfitting
+
+Overfitting: Model learns the training data too well, failing to generalize to new data.
+Underfitting: Model is too simple and fails to capture patterns.
+
+📌 Real-world Example
+Imagine teaching a kid to recognize cats and dogs:
+
+If the kid memorizes all pictures, they might fail when they see a new dog breed (Overfitting).
+If the kid only looks at general shapes, they might mistake a fox for a dog (Underfitting).
+
+🛠 Hands-on Exercise: Implement a Simple ML Model
+Let’s implement a simple Linear Regression model in Python using sklearn. This model predicts house prices based on area.
+
+------> Implementation in Simple_Linear_Regression_Model.py file 
